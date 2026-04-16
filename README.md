@@ -1,2 +1,2 @@
 # DWH
-Airflow + PostgreSQL DWH for US flight cancellation analysis. ODS → STG → DDS → DM, 10 DAGs, weather join with timezone normalization, cancellation × weather data mart, DataLens dashboards.
+Data engineering project: analysis of US flight cancellations and weather-related delays across 4 airports (Anchorage, Fairbanks, Montgomery, Dothan). Multi-layer DWH on Yandex Cloud PostgreSQL with Airflow orchestration. Materialized view data marts correlate cancellation reasons (carrier/weather/technical) with real weather conditions — wind speed, temperature, precipitation. Visualized in Yandex DataLens.
